@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { withStyles, createStyleSheet } from 'material-ui/styles';
-import Paper from 'material-ui/Paper';
-import Tabs, { Tab } from 'material-ui/Tabs';
+import { withStyles, createStyleSheet } from '@material-ui/core/styles';
+import Paper from '@material-ui/core/Paper';
+import Tabs, { Tab } from '@material-ui/core/Tabs';
 
 const styleSheet = createStyleSheet('CenteredTabs', theme => ({
     root: {
